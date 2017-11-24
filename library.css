@@ -1,0 +1,118 @@
+.breadcrumb-holder
+{
+	background-color: #f5f5f5;
+}
+.breadcrumb
+{
+	margin-bottom: 0;
+	margin-top: -4px;
+}
+.h1
+{
+	background-color: #25BD71;
+	padding:10px;
+	max-width: 500px;
+	margin:20px auto;
+	border-radius: 5px;
+
+}
+.img-circle
+{
+   width: 100px;
+   height: 100px;
+   display:block;
+   margin: auto;
+}
+hr
+{
+	background-color: gold;	
+	border-top: 3px solid gold
+}
+.mylibrary p
+{
+	margin: 10px;
+	padding-top: 20px;
+	font-size: 18px;
+
+}
+.mylibrary a
+{
+	position: absolute;
+	bottom: 15px;
+	left: 100px
+}
+.mylibrary img:hover
+{
+	animation: rotation.7s ease-in-out;
+}
+@keyframes rotation {
+  50% {
+    -webkit-transform:rotateY(90deg);
+    transform: rotateY(90deg);
+  }
+   100% {
+    -webkit-transform:rotateY(90deg);
+    transform: rotateY(90deg);
+  }
+ 
+ 
+}
+.mylibrary h3
+{
+
+	margin: 30px 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.mylibrary a:hover
+{
+	background-color: green;
+}
+.mylibrary .book
+{
+	padding-top: 20px;
+	background: #f0f0f0;
+	height: 500px;
+	border:2px solid #36786E;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+@media(max-width: 768px)
+{
+	.mylibrary .book
+	{
+		height: 650px;
+	}	
+	.mylibrary a
+   {
+	margin: auto;
+   }
+
+}
+abbr[data-original-title], abbr[title]
+{
+    border-bottom: none;
+    cursor: pointer;
+}
+@media(max-width: 1200px)
+{
+	.mylibrary h1
+	{
+		margin-top: 80px;
+	}
+}
+
+@media(max-width: 767px)
+{
+	.socialmedia
+	{
+		top: 342px;
+	}
+	.socialmedia li
+	{
+		margin-bottom: 1px
+	}
+
+}
